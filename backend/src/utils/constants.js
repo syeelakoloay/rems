@@ -1,0 +1,75 @@
+/**
+ * Menyimpan nilai dan pilihan baku yang digunakan bersama oleh proses backend.
+ */
+export const ROLES = Object.freeze(['admin', 'doctor', 'pharmacy']);
+export const PRESCRIPTION_STATUSES = Object.freeze(['pending', 'picked']);
+export const MEDICATION_ADMINISTRATION_ROUTES = Object.freeze([
+  'Oral (PO)',
+  'Buccal (BUC)',
+  'Sublingual (SL)',
+  'Nasogastric / Enteral Tube (NG/GT)',
+  'Rectal (PR)',
+  'Vaginal (PV)',
+  'Topical (TOP)',
+  'Transdermal (TD)',
+  'Nasal (NAS)',
+  'Inhalation (INH)',
+  'Ophthalmic (Eye)',
+  'Otic (Ear)',
+  'Intravenous (IV)',
+  'Intramuscular (IM)',
+  'Subcutaneous (SC)',
+  'Intradermal (ID)',
+  'Intra-arterial (IA)',
+  'Intrathecal (IT)',
+  'Epidural (EPI)',
+  'Intra-articular',
+  'Intraosseous (IO)',
+  'Intraperitoneal',
+  'Intravesical',
+  'Endotracheal',
+]);
+export const STOCK_ALERT_THRESHOLD = 50;
+export const EXPIRY_ALERT_DAYS = 30;
+export const NOTIFICATION_RETENTION_DAYS = 90;
+export const PASSWORD_MIN_LENGTH = 8;
+
+export const DEFAULT_DOSE_OPTIONS = [
+  '1 kali sehari 1 tablet',
+  '1 kali sehari 1 tablet sebelum makan pagi',
+  '1 kali sehari 1 tablet sesudah makan pagi',
+  '1 kali sehari 1 tablet sebelum makan siang',
+  '1 kali sehari 1 tablet sesudah makan siang',
+  '1 kali sehari 1 tablet sebelum makan malam',
+  '1 kali sehari 1 tablet sesudah makan malam',
+  '2 kali sehari 1 tablet',
+  '2 kali sehari 1 tablet sebelum makan pagi dan malam',
+  '2 kali sehari 1 tablet sesudah makan pagi dan malam',
+  '2 kali sehari 1 tablet sebelum makan pagi dan sesudah makan malam',
+  '2 kali sehari 1 tablet sesudah makan pagi dan siang',
+  '3 kali sehari 1 tablet',
+  '3 kali sehari 1 tablet sebelum makan pagi, siang, dan malam',
+  '3 kali sehari 1 tablet sesudah makan pagi, siang, dan malam',
+  '4 kali sehari 1 tablet',
+  '1 kali sehari 2 tablet',
+  '1 kali sehari 2 tablet sesudah makan malam',
+  '2 kali sehari 2 tablet',
+  '2 kali sehari 2 tablet sesudah makan pagi dan malam',
+  '3 kali sehari 2 tablet',
+  '1 kali sehari 5 mL',
+  '1 kali sehari 5 mL sesudah makan pagi',
+  '1 kali sehari 5 mL sesudah makan malam',
+  '2 kali sehari 5 mL',
+  '2 kali sehari 5 mL sesudah makan pagi dan malam',
+  '3 kali sehari 5 mL',
+  '3 kali sehari 5 mL sesudah makan pagi, siang, dan malam',
+  '2 kali sehari 1 kapsul',
+  '2 kali sehari 1 kapsul sesudah makan pagi dan malam',
+  '3 kali sehari 1 kapsul',
+  '3 kali sehari 1 kapsul sesudah makan pagi, siang, dan malam',
+  '1 kali sehari 1 kapsul sesudah makan malam',
+  '1 kali sehari 1 tetes',
+  '1 kali sehari 1 tetes sebelum tidur',
+  '2 kali sehari 1 tetes',
+  '3 kali sehari 1 tetes',
+];

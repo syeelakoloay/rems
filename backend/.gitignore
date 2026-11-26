@@ -1,0 +1,5 @@
+# Dependensi dan keluaran lokal backend yang tidak perlu masuk ke repositori.
+node_modules/
+.env
+npm-debug.log*
+.DS_Store
